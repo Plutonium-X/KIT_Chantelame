@@ -1,0 +1,14 @@
+//Rends les boucliers inutilisable par les métamorphes(par défaut OUI dans le jeu)
+//Rends les katanas utilisable par les métamorphes(par défaut NON dans le jeu)
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+	PATCH_IF (SHORT_AT 0x1c == 0x0c) BEGIN
+		WRITE_BYTE 0x29 (THIS BOR 0b00010000)
+	END
+	READ_ASCII 0x22 animation (2)
+		PATCH_IF (~%animation%~ STRING_EQUAL_CASE ~S3~) BEGIN
+		WRITE_BYTE 0x29 (THIS BAND 0b11101111)
+	END
+END
+BUT_ONLY

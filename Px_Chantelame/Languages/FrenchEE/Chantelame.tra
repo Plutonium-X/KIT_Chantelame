@@ -1,0 +1,70 @@
+@90 = ~Chantelame version 6, par Misdrha'al Hymmet, Deratiseur et Isaya~
+@909 = ~chantelame~
+@91 = ~Chantelame~
+@92 = ~CHANTELAME : Dans la communauté haut elfe, la magie est prépondérante. Rares sont les hauts elfes qui n'en maîtrisent pas au minimum quelques bribes dès leur plus jeune age. La caste des Chantelames est constituée de guerriers surentraînés, mêlant une maîtrise parfaite de leur arme avec la capacité d'user de puissants sorts.
+Le chantelame sait manipuler les flux de magie qui l'entourent pour se protéger et se rendre plus fort. Il connaît également la gestuelle et le verbe capable de plier la magie à sa volonté pour en tirer des sorts.
+Il doit cependant respecter quelques règles pour avoir accès à cette puissance. Premièrement, il doit garder une main libre pour manipuler les forces. La magie nécessite des gestes somatiques pour être transformée selon le bon vouloir du manipulateur.
+Deuxièmement, il ne doit pas porter d'autre armure que celle reçue lors de sa formation. Elle est faite sur mesure pour lui et est la seule capable de lui assurer de faire ses manipulations arcaniques sans gêne. Elle représente aussi son appartenance à sa caste, et il ne doit jamais s'en séparer.
+
+Avantages :
+- Renforcement magique : +1 en force.
+- Bouclier de force : -1 à la classe d'armure tous les deux niveaux.
+- Il peut lancer des sorts à la manière d'un sorcier. Il gagne des sorts en moyenne tous les deux niveaux :
+   niveau 1 : Sorts druidiques 1
+   niveau 3 : Sorts d'enchantement 1
+   niveau 5 : Sorts d'évocation 1
+   niveau 8 : Sorts druidiques 2
+   niveau 10 : Sorts d'enchantement 2
+   niveau 12 : Sorts d'évocation 2
+   niveau 15 : Sorts druidiques 3
+   niveau 18 : Haute magie
+- Au niveau 21, il accède à l'ultime arcane, secret réservé aux plus hauts membres de sa caste. Une utilisation supplémentaire est gagnée aux niveaux 23, 25, 28, 31, 35 et 38.
+
+Désavantages :
+- Sa formation ne concerne que les épées à lame longue. Il ne sait pas manipuler les autres armes.
+- Il ne peut pas porter d'autre armure que sa côte de maille elfique.
+- Il doit garder sa seconde main libre pour pouvoir lancer des sorts.
+
+ULTIME ARCANE : Cette capacité améliore considérablement les dons de combattant incantateur du chantelame. En lançant cette arcane, pendant 2 tours :
+  - Il passe à 5 attaques par round.
+  - Il gagne +3 à l'attaque, +2 aux dégâts et +2 à la classe d'armure.
+  - Il peut enchaîner les sorts et voit sa vitesse d'incantation augmentée de 4.~
+
+@93 = ~Sorts Druidiques I~
+@94 = ~Sorts Enchantement I~
+@95 = ~Sorts Evocation I~
+@96 = ~Sorts Druidiques II~
+@97 = ~Sorts Enchantement II~
+@98 = ~Sorts Evocation II~
+@99 = ~Sorts Druidiques III~
+@910 = ~Haute Magie~
+@911 = ~Fureur du chantelame~
+@912 = ~Baies nutritives~
+@9121 = ~Crée par le sort Baies nutritives, cette baie rend 1 point de vie à quiconque la mange.~
+@9122 = ~Crée par le sort Baies nutritives, cette baie rend 2 points de vie à quiconque la mange.~
+@9123 = ~Crée par le sort Baies nutritives, cette baie rend 3 points de vie à quiconque la mange.~
+@9124 = ~Crée par le sort Baies nutritives, cette baie rend 4 points de vie à quiconque la mange.~
+@9125 = ~Crée par le sort Baies nutritives, cette baie rend 5 points de vie à quiconque la mange.~
+@9126 = ~Crée par le sort Baies nutritives, cette baie rend 6 points de vie à quiconque la mange.~
+@913 = ~Sphère glaciale d'Otiluke~
+@914 = ~Invocation d'araignée~
+@61 = ~Convocation d'animaux~
+
+@915 = ~Cotte de mailles de Chantelame~
+@916 = ~L'artisanat délicat mais réputé solide des hauts elfes leur permet de concevoir des objets à la fois beaux et efficaces. Parmi ceux-ci figure la cotte de mailles elfique, forgée si finement qu'elle peut être portée sous des vêtements normaux, et si légère qu'elle ne gêne aucunement les mouvements. Celle-ci est unique, forgée sur mesure pour un guerrier de la caste des chantelames.
+
+PARAMETRES :
+
+Classe d'armure : 5
+Poids : 8
+Force nécessaire : 5
+Seulement utilisable par :
+ Le chantelame à qui elle est destinée.~
+
+//Noms qui sont présents dans BG2/BGT mais pas dans BGEE
+@917 = ~Chaîne d'éclairs~
+@918 = ~Feu solaire~
+@919 = ~Appel de la Wyverne~
+@920 = ~Convocation de Djinn~
+@921 = ~Rayon débilitant~
+@922 = ~Bouclier de feu (rouge)~

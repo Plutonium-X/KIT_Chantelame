@@ -1,0 +1,71 @@
+@90 = ~Bladesinger version 5, by Misdrha'al Hymmet, Deratiseur and Isaya~
+@909 = ~Bladesinger~
+@91 = ~Bladesinger~
+@92 = ~BLADESINGER: Among the High Elves, magic is ubiquitous. It is very rare to see one who cannot cast some little cantrip from a very early age. Bladesingers are a caste that consist of highly trained fighters who combine a perfect mastery of their weapon with the ability to use powerful spells. A potent combination.
+The Bladesinger knows how to manipulate the flow of magic around him to protect himself and augment his abilities. In addition, he is also able to mold magical energy to his will to cast spells.
+However, there are a few trade-offs to such power. First, he must keep one hand free to be able to cast magic. Magic requires somatic gestures to be turned at the will of the conjurer.
+Second, he must not wear any armor. To compensate for this, a Bladesinger is given specialised armor during training which is tailor-made and allows him to cast will offer protection. The armor is also a badge of identification and a Bladesinger will not willingly part with it.
+
+Advantages:
+- Strengthening magic: +1 strength.
+- Force Shield: -1 to Armor Class every 2 levels.
+- He can cast spells like a wizard. He gains spells every two levels on average:
+   Level 1: Druid Spells 1
+   Level 3: Enchantment Spells 1
+   Level 5: Evocation Spells 1
+   Level 8: Druid Spells 2
+   Level 10: Enchantment Spells 2
+   Level 12: Evocation Spells 2
+   Level 15: Druid Spells 3
+   Level 18: High Magic
+- At level 21, the Bladesinger achieves the "Ultimate Mastery", a secret reserved for the highest members of his caste. One extra use of the ability is gained at levels 23, 25, 28, 31, 35 and 38.
+
+Disadvantages:
+- Bladesingers train in long-blade swords. They cannot handle other weapons.
+- They cannot wear armor other than elven chain mail.
+- Their off-hand must be free in order to cast spells.
+
+ULTIMATE MASTERY: This ability significantly improves the abilities of the Bladesinger. By invoking this ability, for 2 rounds, he:
+  - Gets 5 attacks per round.
+  - Gets +3 to attack, +2 damage and +2 to armor class.
+  - Can cast chain spells and casting speed improves by 4.~
+
+@93 = ~Druid Spells I~
+@94 = ~Enchantment Spells I~
+@95 = ~Evocation Spells I~
+@96 = ~Druid Spells II~
+@97 = ~Enchantment Spells II~
+@98 = ~Evocation Spells II~
+@99 = ~Druid Spells III~
+@910 = ~High Magic~
+@911 = ~Bladesinger Rage~
+@912 = ~Goodberries~
+@9121 = ~Created by the spell Goodberries, these berries cure 1 point of physical damage for each one eaten.~
+@9122 = ~Created by the spell Goodberries, these berries cure 2 points of physical damage for each one eaten.~
+@9123 = ~Created by the spell Goodberries, these berries cure 3 points of physical damage for each one eaten.~
+@9124 = ~Created by the spell Goodberries, these berries cure 4 points of physical damage for each one eaten.~
+@9125 = ~Created by the spell Goodberries, these berries cure 5 points of physical damage for each one eaten.~
+@9126 = ~Created by the spell Goodberries, these berries cure 6 points of physical damage for each one eaten.~
+@913 = ~Otiluke's Freezing Sphere~
+@914 = ~Summon Spider~
+@61 = ~Animal Summoning~
+
+@915 = ~Bladesinger Chainmail~
+@916 = ~The delicate yet sturdy craftsmanship of the Elven races allows them to design many beautiful and yet extremely useful goods.  Among these is the Elven chainmail, which is so finely wrought that it can be worn under normal clothing without revealing its presence.  This is a unique work, tailor-made for a fighters of the Bladesinger caste.
+
+STATISTICS:
+
+Armor Class: 5
+Weight: 8
+Requires: 5 strength
+
+Only Usable By:
+ The Bladesinger for whom it was forged.~
+
+//Names that are present in BG2/BGT but not in BGEE
+@917 = ~Chain Lightning~
+@918 = ~Sunfire~
+@919 = ~Wyvern Call~
+@920 = ~Summon Djinni~
+@921 = ~Ray of Enfeeblement~
+@922 = ~Fire Shield (Red)~

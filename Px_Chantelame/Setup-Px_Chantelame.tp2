@@ -1,0 +1,178 @@
+BACKUP ~Px_Chantelame/backup~
+AUTHOR ~L'archimage Misdrha'al Hymmet & deratiseur
+		Forum : http://www.baldursgateworld.fr/lacouronne/les-pepites-de-cespenar/17829-kit-chantelame-disponible-en-version-weidu.html~
+VERSION ~7~
+
+LANGUAGE ~Francais~
+	~french~
+	~Px_Chantelame/Languages/French/Chantelame.tra~
+
+LANGUAGE ~Francais pour les editions EE~
+	~french~
+	~Px_Chantelame/Languages/FrenchEE/Chantelame.tra~
+
+LANGUAGE ~English by Nightfarer & Gertwenger~
+	~english~
+	~Px_Chantelame/Languages/English/Chantelame.tra~
+
+BEGIN @90
+
+COPY_EXISTING ~kit.ids~ ~override~ //Kit fixes (From CamDawg & the bigg)
+  REPLACE_TEXTUALLY ~.*\bBARBARIAN\b~			  ~0x40000000 BARBARIAN~
+  REPLACE_TEXTUALLY ~.*\bWILDMAGE\b~			   ~0x80000000 WILDMAGE~
+BUT_ONLY
+APPEND ~kit.ids~ ~0x4000 TRUECLASS~ UNLESS ~\bTRUECLASS\b~
+APPEND ~kit.ids~ ~0x40000000 BARBARIAN~ UNLESS ~\bBARBARIAN\b~
+APPEND ~kit.ids~ ~0x80000000 WILDMAGE~ UNLESS ~\bWILDMAGE\b~
+
+ADD_KIT ~MAHBLADESINGER~
+~MAHBLADESINGER         0           1           0           0           0           0           0           0~
+~MAHBLADESINGER         5 5 0 0 0 0 0 0 5 5 0 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+~MAHBLADESINGER         13      15      13      13      3       8~
+~MAHBLADESINGER         1       0       0       0       0       0~
+~MAHBLADESINGER         17      0       0       17      0       0~
+~MAHBLADESINGER         15      0       0       0       0       0~
+~MAHBLADESINGER         1       0       0       1       0       0       0       0       0~
+~MAHBLADESINGER         0       0       0       0       0       0~
+~Px_Chantelame/pxLame.2da~
+~K_F_E~
+~0x10004000     2~
+~Fi0~
+~* * HELM19 BAG22 RING06 RING29 CLCK02 BOOT01 AMUL19 BRAC14 BELT06 * * * POTN52,5 POTN04,2 POTN14,5 SW1H33 SW1H27 STAF08~
+SAY @909
+SAY @91
+SAY @92
+
+COPY	~Px_Chantelame/Copy~							~override~
+
+COPY_EXISTING	~djinnisu.cre~							~override~	WRITE_BYTE 0x270 4
+
+COPY_EXISTING	~gberry.itm~				~override/pxlbaie1.itm~	WRITE_BYTE 0xae 1	SAY DESC @9121
+COPY_EXISTING	~gberry.itm~				~override/pxlbaie2.itm~	WRITE_BYTE 0xae 2	SAY DESC @9122
+COPY_EXISTING	~gberry.itm~				~override/pxlbaie3.itm~	WRITE_BYTE 0xae 3	SAY DESC @9123
+COPY_EXISTING	~gberry.itm~				~override/pxlbaie4.itm~	WRITE_BYTE 0xae 4	SAY DESC @9124
+COPY_EXISTING	~gberry.itm~				~override/pxlbaie5.itm~	WRITE_BYTE 0xae 5	SAY DESC @9125
+COPY_EXISTING	~gberry.itm~				~override/pxlbaie6.itm~	WRITE_BYTE 0xae 6	SAY DESC @9126
+COPY	~Px_Chantelame/Spells/pxlarmor.itm~			~override~	SAY NAME2 @915	SAY DESC @916
+
+COPY	~Px_Chantelame/Spells/pxlame1.spl~			~override~	SAY NAME1 @93
+COPY	~Px_Chantelame/Spells/pxlame2.spl~			~override~	SAY NAME1 @94
+COPY	~Px_Chantelame/Spells/pxlame3.spl~			~override~	SAY NAME1 @95
+COPY	~Px_Chantelame/Spells/pxlame4.spl~			~override~	SAY NAME1 @96
+COPY	~Px_Chantelame/Spells/pxlame5.spl~			~override~	SAY NAME1 @97
+COPY	~Px_Chantelame/Spells/pxlame6.spl~			~override~	SAY NAME1 @98
+COPY	~Px_Chantelame/Spells/pxlame7.spl~			~override~	SAY NAME1 @99
+COPY	~Px_Chantelame/Spells/pxlame8.spl~			~override~	SAY NAME1 @910
+COPY	~Px_Chantelame/Spells/pxlarca.spl~			~override~	SAY NAME1 @911
+COPY	~Px_Chantelame/Spells/pxlbaie1.spl~			~override~	SAY NAME1 @912
+COPY	~Px_Chantelame/Spells/pxlsph12.spl~			~override~	SAY NAME1 @913
+COPY	~Px_Chantelame/Spells/pxlara15.spl~			~override~	SAY NAME1 @914
+COPY	~Px_Chantelame/Spells/pxlanim8.spl~			~override~	SAY NAME1 @61
+COPY	~Px_Chantelame/Spells/pxlche12.spl~			~override~	SAY NAME1 @917
+COPY	~Px_Chantelame/Spells/pxlfeu12.spl~			~override~	SAY NAME1 @918
+COPY	~Px_Chantelame/Spells/pxlwyv15.spl~			~override~	SAY NAME1 @919
+COPY	~Px_Chantelame/Spells/pxldji18.spl~			~override~	SAY NAME1 @920
+COPY	~Px_Chantelame/Spells/pxlray4.spl~			~override~	SAY NAME1 @921
+COPY	~Px_Chantelame/Spells/pxlbou12.spl~			~override~	SAY NAME1 @922
+ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
+COPY_EXISTING	~pxlpro5.spl~						~override~	SAY NAME1 #2968
+COPY_EXISTING	~pxlsph12.spl~						~override~	WRITE_ASCII 0x76 ~SPWI628B~ #8
+END
+
+OUTER_FOR ( i=2 ; i<21 ; i +=1) BEGIN
+COPY_EXISTING	~pxlpea1.spl~				~override/pxlpea%i%.spl~
+FOR (a=0 ; a< 16 ; a+=1) BEGIN
+WRITE_BYTE 0xa8+a*0x30 36+6*(i -2)
+END
+END
+COPY_EXISTING	~pxlpea4.spl~							~override~
+				~pxlpea5.spl~							~override~
+				~pxlpea6.spl~							~override~
+				~pxlpea7.spl~							~override~	WRITE_BYTE 0x9e 5
+COPY_EXISTING	~pxlpea8.spl~							~override~
+				~pxlpea9.spl~							~override~
+				~pxlpea10.spl~							~override~
+				~pxlpea11.spl~							~override~	WRITE_BYTE 0x9e 4
+COPY_EXISTING	~pxlpea12.spl~							~override~
+				~pxlpea13.spl~							~override~
+				~pxlpea14.spl~							~override~
+				~pxlpea15.spl~							~override~	WRITE_BYTE 0x9e 3
+COPY_EXISTING	~pxlpea16.spl~							~override~
+				~pxlpea17.spl~							~override~
+				~pxlpea18.spl~							~override~
+				~pxlpea19.spl~							~override~	WRITE_BYTE 0x9e 2
+COPY_EXISTING	~pxlpea20.spl~							~override~	WRITE_BYTE 0x9e 1
+OUTER_FOR ( i=2 ; i<7 ; i +=1) BEGIN
+COPY_EXISTING	~pxlbaie1.spl~				~override/pxlbaie%i%.spl~	WRITE_ASCIIE 0xae ~pxlbaie%i%~ #8
+WRITE_ASCIIE 0xde ~pxlbaie%i%~ #8	WRITE_ASCIIE 0x10e ~pxlbaie%i%~ #8	WRITE_ASCIIE 0x13e ~pxlbaie%i%~ #8
+END
+OUTER_FOR ( i=2 ; i<21 ; i +=2) BEGIN
+COPY_EXISTING	~pxllam1.spl~				~override/pxllam%i%.spl~	WRITE_BYTE 0xa8 30+3*(i -2)
+END
+OUTER_FOR ( i=4 ; i<21 ; i +=1) BEGIN
+COPY_EXISTING	~pxlsom3.spl~				~override/pxlsom%i%.spl~
+WRITE_SHORT 0xa8 120+30*(i -4)	WRITE_SHORT 0x108 120+30*(i -4)	WRITE_SHORT 0x168 120+30*(i -4)
+END
+OUTER_FOR ( i=5 ; i<21 ; i +=1) BEGIN
+COPY_EXISTING	~pxlray4.spl~				~override/pxlray%i%.spl~
+WRITE_BYTE 0xa8 30+6*(i -5)	WRITE_BYTE 0x138 30+6*(i -5)	WRITE_BYTE 0x198 30+6*(i -5)
+END
+OUTER_FOR ( i=5 ; i<21 ; i +=2) BEGIN
+COPY_EXISTING	~pxlami3.spl~				~override/pxlami%i%.spl~	WRITE_BYTE 0xa8 54+6*(i -5)
+WRITE_BYTE 0x138 54+6*(i -5)	WRITE_BYTE 0x168 54+6*(i -5)
+END
+OUTER_FOR ( i=11 ; i<21 ; i +=1) BEGIN
+COPY_EXISTING	~pxlemo10.spl~				~override/pxlemo%i%.spl~	WRITE_BYTE 0x138 78+6*(i -11)
+WRITE_BYTE 0x168 78+6*(i -11)	WRITE_BYTE 0x198 78+6*(i -11)	WRITE_BYTE 0x1c8 78+6*(i -11)	WRITE_BYTE 0x1f8 78+6*(i -11)
+COPY_EXISTING	~pxlmal10.spl~				~override/pxlmal%i%.spl~
+FOR (a=0 ; a< 8 ; a+=1) BEGIN				//pour chaque effet jusqu'au 8eme
+WRITE_SHORT 0xa8+a*0x30 132+12*(i -11)		//indiquer une durée de 12 x le numéro/niveau du sort
+WRITE_SHORT 0x288 132+12*(i -11)			//Au 11eme effet, indiquer une durée de 12 x le numéro/niveau du sort
+WRITE_ASCIIE 0x28e ~pxlmal%i%~ #8	//Au 11eme effet, indiquer la protection contre "Nom du sort crée suivant niveau"
+END
+END
+OUTER_FOR ( i=13 ; i<21 ; i +=1) BEGIN
+COPY_EXISTING	~pxlbou12.spl~				~override/pxlbou%i%.spl~	WRITE_BYTE 0xa8 96+6*(i -13)	WRITE_BYTE 0xd8 96+6*(i -13)	WRITE_BYTE 0x108 96+6*(i -13)
+WRITE_BYTE 0x138 96+6*(i -13)	WRITE_BYTE 0x168 96+6*(i -13)	WRITE_BYTE 0x198 96+6*(i -13)	WRITE_BYTE 0x1c8 96+6*(i -13)
+END
+OUTER_FOR ( i=16 ; i<21 ; i +=1) BEGIN
+COPY_EXISTING	~pxlara15.spl~				~override/pxlara%i%.spl~	WRITE_BYTE 0xa8 132+6*(i -16)	WRITE_BYTE 0xd8 132+6*(i -16)
+COPY_EXISTING	~pxlwyv15.spl~				~override/pxlwyv%i%.spl~	WRITE_BYTE 0xa8 96+6*(i -16)
+END
+COPY_EXISTING	~pxlcha6.spl~				~override/pxlcha12.spl~	WRITE_BYTE 0xa8 42	WRITE_BYTE 0x108 42	WRITE_BYTE 0x138 42	WRITE_BYTE 0x168 42	WRITE_BYTE 0x198 42	WRITE_BYTE 0x1c8 42	WRITE_BYTE 0x228 42	WRITE_BYTE 0x258 42
+COPY_EXISTING	~pxlcha6.spl~				~override/pxlcha18.spl~	WRITE_BYTE 0xa8 48	WRITE_BYTE 0x108 48	WRITE_BYTE 0x138 48	WRITE_BYTE 0x168 48	WRITE_BYTE 0x198 48	WRITE_BYTE 0x1c8 48	WRITE_BYTE 0x228 48	WRITE_BYTE 0x258 48
+COPY_EXISTING	~pxlche12.spl~				~override/pxlche14.spl~
+COPY_EXISTING	~pxlche14.spl~				~override/pxlche16.spl~	WRITE_BYTE 0xb6 4
+COPY_EXISTING	~pxlche16.spl~				~override/pxlche18.spl~	WRITE_BYTE 0xe6 5
+COPY_EXISTING	~pxlche18.spl~				~override/pxlche20.spl~	WRITE_BYTE 0xb6 5
+COPY_EXISTING	~pxldji18.spl~				~override/pxldji19.spl~	WRITE_BYTE 0xa8 114
+COPY_EXISTING	~pxldji18.spl~				~override/pxldji20.spl~	WRITE_BYTE 0xa8 120
+COPY_EXISTING	~pxlecl6.spl~				~override/pxlecl7.spl~	WRITE_BYTE 0xb6 4
+COPY_EXISTING	~pxlecl7.spl~				~override/pxlecl8.spl~	WRITE_BYTE 0xe6 4
+COPY_EXISTING	~pxlecl8.spl~				~override/pxlecl9.spl~	WRITE_BYTE 0xb6 5
+COPY_EXISTING	~pxlecl9.spl~				~override/pxlecl10.spl~	WRITE_BYTE 0xe6 5
+COPY_EXISTING	~pxlfeu12.spl~				~override/pxlfeu13.spl~	WRITE_BYTE 0xb6 7
+COPY_EXISTING	~pxlfeu13.spl~				~override/pxlfeu14.spl~	WRITE_BYTE 0xe6 7
+COPY_EXISTING	~pxlfeu14.spl~				~override/pxlfeu15.spl~	WRITE_BYTE 0xb6 8
+COPY_EXISTING	~pxlfou8.spl~				~override/pxlfou9.spl~	WRITE_BYTE 0xb6 6
+COPY_EXISTING	~pxlfou9.spl~				~override/pxlfou10.spl~	WRITE_BYTE 0xe6 6
+COPY_EXISTING	~pxlfou10.spl~				~override/pxlfou11.spl~	WRITE_BYTE 0xb6 7
+COPY_EXISTING	~pxlfou11.spl~				~override/pxlfou12.spl~	WRITE_BYTE 0xe6 7
+COPY_EXISTING	~pxlfou12.spl~				~override/pxlfou13.spl~	WRITE_BYTE 0xb6 8
+COPY_EXISTING	~pxlfou13.spl~				~override/pxlfou14.spl~	WRITE_BYTE 0xe6 8
+COPY_EXISTING	~pxlfou14.spl~				~override/pxlfou15.spl~	WRITE_BYTE 0xb6 9
+COPY_EXISTING	~pxlfou15.spl~				~override/pxlfou16.spl~	WRITE_BYTE 0xe6 9
+COPY_EXISTING	~pxlfou16.spl~				~override/pxlfou17.spl~	WRITE_BYTE 0xb6 10
+COPY_EXISTING	~pxlfou17.spl~				~override/pxlfou18.spl~	WRITE_BYTE 0xe6 10
+COPY_EXISTING	~pxlsph12.spl~				~override/pxlsph13.spl~	WRITE_BYTE 0xb6 13	WRITE_BYTE 0x9e 26
+COPY_EXISTING	~pxlsph12.spl~				~override/pxlsph14.spl~	WRITE_BYTE 0xb6 14	WRITE_BYTE 0x9e 28
+COPY_EXISTING	~pxlsph12.spl~				~override/pxlsph15.spl~	WRITE_BYTE 0xb6 15	WRITE_BYTE 0x9e 30
+COPY_EXISTING	~pxlsph12.spl~				~override/pxlsph16.spl~	WRITE_BYTE 0xb6 16	WRITE_BYTE 0x9e 32
+
+INCLUDE ~Px_Chantelame/Scripts/Shapshif.cod~
+EXTEND_BOTTOM ~AR0602.BCS~ ~Px_Chantelame/Scripts/AR0602.BAF~
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+	INCLUDE ~Px_Chantelame/Scripts/fl#add_kit_ee.tpa~
+	LAF fl#add_kit_ee	STR_VAR	kit_name = MAHBLADESINGER	clsrcreq = ~0 1 0 0 0 0 0~	END
+END
