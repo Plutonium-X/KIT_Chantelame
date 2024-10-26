@@ -1,4 +1,4 @@
-# Le Kit de Chantelame de Misdrha'al Hymmet
+# Le Kit de Chantelame de Misdrha'al Hymmet (geurrier elfe)
 
 -Avantages :
 - +1 en force lors de la création
