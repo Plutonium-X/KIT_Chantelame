@@ -11,4 +11,4 @@
 - Cotte de maille elfique personnelle et inamovible.
 - Doit garder sa seconde main vide.
 
-- Note : "Enchainement" ne lui sert en fait à rien puisqu'il lance les sorts en tant que capacité spéciale : un par round et ne peut pas être enchainé)
+-Note : "Enchainement" ne lui sert en fait à rien puisqu'il lance les sorts en tant que capacité spéciale : un par round et ne peut pas être enchainé)
