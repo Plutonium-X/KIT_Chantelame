@@ -27,7 +27,7 @@ APPEND ~kit.ids~ ~0x80000000 WILDMAGE~ UNLESS ~\bWILDMAGE\b~
 
 ADD_KIT ~MAHBLADESINGER~
 ~MAHBLADESINGER         0           1           0           0           0           0           0           0~
-~MAHBLADESINGER         5 5 0 0 0 0 0 0 5 5 0 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+~MAHBLADESINGER         5 5 0 0 0 0 0 0 5 5 0 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
 ~MAHBLADESINGER         13      15      13      13      3       8~
 ~MAHBLADESINGER         1       0       0       0       0       0~
 ~MAHBLADESINGER         17      0       0       17      0       0~
