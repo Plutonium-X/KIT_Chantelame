@@ -21,13 +21,15 @@ Avantages :
 - Au niveau 21, il accède à l'ultime arcane, secret réservé aux plus hauts membres de sa caste. Une utilisation supplémentaire est gagnée aux niveaux 23, 25, 28, 31, 35 et 38.
 
 Désavantages :
+- Doit être un elfe.
+- Doit être d'alignement loyal bon ou neutre bon.
 - Sa formation ne concerne que les épées à lame longue. Il ne sait pas manipuler les autres armes.
 - Il ne peut pas porter d'autre armure que sa côte de maille elfique.
 - Il doit garder sa seconde main libre pour pouvoir lancer des sorts.
 
 ULTIME ARCANE : Cette capacité améliore considérablement les dons de combattant incantateur du chantelame. En lançant cette arcane, pendant 2 tours :
   - Il passe à 5 attaques par round.
-  - Il gagne +3 à l'attaque, +2 aux dégâts et +2 à la classe d'armure.
+  - Il gagne +3 aux jets d'attaque, +2 aux dégâts et +2 à la classe d'armure.
   - Il peut enchaîner les sorts et voit sa vitesse d'incantation augmentée de 4.~
 
 @93 = ~Sorts Druidiques I~
@@ -40,12 +42,12 @@ ULTIME ARCANE : Cette capacité améliore considérablement les dons de combatta
 @910 = ~Haute Magie~
 @911 = ~Fureur du chantelame~
 @912 = ~Baies nutritives~
-@9121 = ~Crée par le sort Baies nutritives, cette baie rend 1 point de vie à quiconque la mange.~
-@9122 = ~Crée par le sort Baies nutritives, cette baie rend 2 points de vie à quiconque la mange.~
-@9123 = ~Crée par le sort Baies nutritives, cette baie rend 3 points de vie à quiconque la mange.~
-@9124 = ~Crée par le sort Baies nutritives, cette baie rend 4 points de vie à quiconque la mange.~
-@9125 = ~Crée par le sort Baies nutritives, cette baie rend 5 points de vie à quiconque la mange.~
-@9126 = ~Crée par le sort Baies nutritives, cette baie rend 6 points de vie à quiconque la mange.~
+@9121 = ~Créée par le sort Baies nutritives, cette baie rend 1 point de vie à quiconque la mange.~
+@9122 = ~Créée par le sort Baies nutritives, cette baie rend 2 points de vie à quiconque la mange.~
+@9123 = ~Créée par le sort Baies nutritives, cette baie rend 3 points de vie à quiconque la mange.~
+@9124 = ~Créée par le sort Baies nutritives, cette baie rend 4 points de vie à quiconque la mange.~
+@9125 = ~Créée par le sort Baies nutritives, cette baie rend 5 points de vie à quiconque la mange.~
+@9126 = ~Créée par le sort Baies nutritives, cette baie rend 6 points de vie à quiconque la mange.~
 @913 = ~Sphère glaciale d'Otiluke~
 @914 = ~Invocation d'araignée~
 @61 = ~Convocation d'animaux~
