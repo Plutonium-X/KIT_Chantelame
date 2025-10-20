@@ -170,7 +170,6 @@ COPY_EXISTING	~pxlsph12.spl~				~override/pxlsph15.spl~	WRITE_BYTE 0xb6 15	WRITE
 COPY_EXISTING	~pxlsph12.spl~				~override/pxlsph16.spl~	WRITE_BYTE 0xb6 16	WRITE_BYTE 0x9e 32
 
 INCLUDE ~Px_Chantelame/Scripts/Shapshif.cod~
-EXTEND_BOTTOM ~AR0602.BCS~ ~Px_Chantelame/Scripts/AR0602.BAF~
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	INCLUDE ~Px_Chantelame/Scripts/fl#add_kit_ee.tpa~
