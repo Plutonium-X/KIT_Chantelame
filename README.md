@@ -13,6 +13,6 @@
 - Doit garder sa seconde main vide
 
 Notes :
-- "Enchainement" ne lui sert presque à rien puisque la plupart de ses sorts n'y sont pas affectés
+- "Enchainement" ne lui sert à rien puisqu'il lance ses sors en tant que capacités spéciales et que enchainement ne gère pas les capacités spéciales.
 - Il ne peut pas s'équiper de bouclier mais peut utiliser deux armes ou des armes à deux mains (sans pouvoir s'y spécialiser)
 - Les compétences n'ont pas de description
